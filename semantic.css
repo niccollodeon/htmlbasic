@@ -1,0 +1,31 @@
+header, footer {
+    background-color: #333;
+    color: white;
+}
+nav {
+    background-color: #f0f0f0;
+    text-align: center;
+}
+section {
+    background-color: #f9f9f9;
+}
+article {
+    background-color: #aeaeae;
+}
+header, nav,section, article,footer {
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+nav ul li a {
+   font-size: 20px;
+   text-decoration: none;
+   padding: 0px;
+   color: black;
+   padding: 10px;
+}
+nav ul li a:hover{
+    background-color: gray;
+}
+nav ul li{
+    display: inline;
+}

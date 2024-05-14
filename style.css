@@ -1,0 +1,36 @@
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    font-style: oblique;
+    background-color: antiquewhite;
+    padding: 25px;
+}
+p {
+    padding: 15px 25px;
+    text-align: center;
+    background-color: aqua;
+}
+.button {
+    padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #0e0c0c;
+  background-color: #04AA6D;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #dbb6b6;
+}
+.button:hover {
+    background-color: #046366;
+}
+.button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.button {
+    background-color: antiquewhite;
+    border: 2px solid #046366;
+}
